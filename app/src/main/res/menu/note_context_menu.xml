@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/noteContext_menu_share"
+        android:title="share"
+        android:icon="@drawable/ic_share_black_24dp"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/noteContext_menu_edit"
+        android:title="edit"
+        android:icon="@drawable/ic_edit_black_24dp"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/noteContext_menu_sync"
+        android:title="sync"
+        android:icon="@drawable/ic_sync_black_24dp"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/noteContext_menu_delete"
+        android:title="delete"
+        android:icon="@drawable/ic_delete_black_24dp"
+        app:showAsAction="always"/>
+
+</menu>
